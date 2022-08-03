@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* 태그명이 달라도 같은 클래스로 묶을 수 있음 */
+        .error{
+            text-decoration: line-through;
+            color:pink;
+        }
+
+        .special{
+            font-size: 3em;
+        }
+
+        /* fire 클래스인 요소에 배경색을 red로 만드는 코드 작성 */
+        .fire{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <!--하나의 요소는 여러 클래스의 값을 가질 수 있다.-->
+    <!--여러 클래스는 스페이스로 구분된다-->
+    <!--클래스명은 영문대소문자, 숫자, -, _만 사용 가능-->
+    <p class="special error">Voluptates neque assumenda beatae facilis.</p>
+
+    <!-- h1*5>lorem3^p*5>lorem5-->
+    <h1 class="error">Lorem, ipsum dolor.</h1>
+    <h1 class="error fire">Ut, mollitia recusandae.</h1>
+    <h1 class="fire">Eligendi, dicta asperiores!</h1>
+    <h1>Sed, enim et!</h1>
+    <h1>Vero, architecto eos.</h1>
+    <p class="error">Lorem ipsum dolor sit amet.</p>
+    <p >Temporibus veritatis repellendus esse vel.</p>
+    <p>Facilis illo sed quaerat provident?</p>
+    <p>Nobis totam beatae tempora iste.</p>
+</body>
+</html>
