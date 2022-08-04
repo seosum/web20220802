@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <!--
+1) 영역 전체를 감싸는 스타일은 .container이고 텍스트 영역을 감싸는 스타일을 .container입니다.
+
+2) 영역 전체에 배경 이미지를 삽입하는데 반복하지 않고 영역 전체를 덮을 수 있도록 합니다(container 스타일에 속성 추가)
+
+3) 배경 이미지를 추가하면 텍스트가 눈에 잘 띄지 않습니다. 텍스트 영역에 흰색 배경을 깔되 너무 진하지 않게
+
+불투명도(alpha 값)을 0.5로 지정합니다(.content 스타일에 속성 추가)
+
+  -->
+<head>
+    <style>
+        body {
+            font-family: "맑은고딕",돋움;
+        }
+        .container {/*조건1. .container 영역전체를 감싸는 스타일*/
+            position: relative;
+            width: 600px;
+            height: 400px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background: url();
+            background-size: cover; /*조건2. 영역 전체에 배경 이미지 삽입 */
+        }
+            .content {/* 조건1. .content 텍스트 영역을 감싸는 스타일 */
+                position: absolute;
+                top:300px;
+                width: 90px;
+                padding: 10px;
+                background-color: rgba(255,255,255,0.5);
+            }
+            </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="content"></div>
+        <h1>하루 한 알의 사과는 의사를 멀리 한다</h1>
+    </div>
+</body>
+</html>
