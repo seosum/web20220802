@@ -1,0 +1,32 @@
+h1{
+    text-align:center;
+}
+div{
+    font-size:30px;
+    text-align:center;
+}
+#main {
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+#main .contents {
+    background-color: #b4b8ff;
+}
+#main .sidebar {
+    background-color: bisque;
+}
+footer {
+    font-size: 30px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+/*미디어 뭐리!!!?*/
+@media (max-width:600px) { /*가로 너비 600px이하일때 아래 스타일 적용*/
+#main {
+    display: block;
+}
+#main .sidebar {
+    min-height: 0;
+}
+}
