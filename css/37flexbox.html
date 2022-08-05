@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .item{
+            font-size: 48px;
+        }
+        .item:nth-child(odd) {
+            background-color: gold;
+        }
+        .item:nth-child(even) {
+            background-color: aqua;
+        }
+        .container {
+            display:flex;
+            border-color:chocolate;
+        }
+    </style>
+</head>
+<body>
+    <!--.container>.item*5{$}-->
+    <div class="container">
+        <div class="item" style="flex: 5">1</div>
+        <div class="item" style="flex: 1">2</div>
+        <div class="item" style="flex: 1">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </div>
+</body>
+</html>
