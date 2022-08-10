@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aloofelicidad's Portfolio</title>
+    <meta name="description" content="Portfolio for Aloofelicidad" />
+    <meta name="author" content="Aloofelicidad" />
+    <link rel="icon" type="image/png" sizes="152x152" href="imgs/favicon.png" />
+    <script src="https://kit.fontawesome.com/91b5983e4b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="01.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <img class="navbar__logo__image" src="imgs/favicon.png" alt="logo" width="30px" />
+        <a href="#home" class="navbar__name">&nbspAloofelicidad</a>
+        <!-- &nbsp = space -->
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item active" data-link="#home">Home</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#skills">Skills</li>
+        <li class="navbar__menu__item" data-link="#work">Work</li>
+        <li class="navbar__menu__item" data-link="#lastlys">Lastly</li>
+        <li class="navbar__menu__item" data-link="#contact">Contact</li>
+      </ul>
+      <!-- Toggle button -->
+      <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Home -->
+    <div class="custom-shape-divider-bottom-home">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          class="shape-fill"
+        ></path>
+      </svg>
+    </div>
+    <section id="home">
+      <div class="home__container">
+        <img src="imgs/profile/profile.jpg" alt="Aloofelicidad's profile photo" class="home__avatar" />
+        <h1 class="home__title">Hello, there <br />I'm Aloofelicidad</h1>
+        <h2 class="text home__description"></h2>
+        <div class="box-1">
+          <div class="btn home__contact">
+            <span>Contact Me</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section__container">
+      <h1>About me</h1>
+      <p>
+        A graduate of aeronautical maintenance who has been to the military training camp four times, and Junior developer who can learn newness with delicacy and passion and apply it to work and
+        life.
+      </p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+            <div class="major__icon__blobs">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <h2 class="major__title">Front-end</h2>
+          <p class="major__description">
+            HTML, CSS, JavaScript, <br />
+            TypeScript
+          </p>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-react"></i>
+            <div class="major__icon__blobs">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <h2 class="major__title">Framework</h2>
+          <p class="major__description">React</p>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fas fa-server"></i>
+            <div class="major__icon__blobs">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <h2 class="major__title">Back-end</h2>
+          <p class="major__description">Java, Oracle</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <div class="custom-shape-divider-top-skills">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          class="shape-fill"
+        ></path>
+      </svg>
+    </div>
+    <section id="skills" class="section">
+      <div class="section__container">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p>
+          <br />
+          As a non-majors, it's really like a wilderness, but as I came across the backend and the frontend little by little, I set the direction of studying. I'm still lacking a lot, but I'm studying
+          a lot on my own. I am also interested in and want to learn from various technology stacks. I have a smooth interpersonal relationship, so I can work with anyone comfortably. Of course, also
+          do personal work. If you're with me, please think of me as a really comfortable friend.
+          <br /><br />
+        </p>
+        <div class="skillset">
+          <div class="skillset__left">
+            <h3 class="skillset_title">Skills</h3>
+            <div class="skill">
+              <div class="skill__description">
+                <span>JavaScript</span>
+                <span>70%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>TypeScript</span>
+                <span>70%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>React</span>
+                <span>60%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 60%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Next.js</span>
+                <span>20%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 20%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Java</span>
+                <span>50%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 50%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Oracle</span>
+                <span>65%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 65%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skillset_right">
+            <div class="tools">
+              <h3 class="skillset_title">Tools</h3>
+              <ul class="tools__list">
+                <li><span>Visual Studio Code</span></li>
+                <li><span>Eclipse</span></li>
+              </ul>
+            </div>
+            <div class="etc">
+              <h3 class="skillset_title">Etc</h3>
+              <ul class="etc__list">
+                <li><span>Git</span></li>
+                <li><span>Sourcetree</span></li>
+                <li><span>JLPT N3</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <div class="custom-shape-divider-top-work">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          class="shape-fill"
+        ></path>
+      </svg>
+    </div>
+    <section id="work" class="section">
+      <div class="work section__container">
+        <h1>My work</h1>
+        <h3>Projects</h3>
+        <div class="wrapper">
+          <div class="cols">
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <div class="container">
+                <div class="front" style="background-image: url(imgs/Projects/ex1.jpg)">
+                  <div class="inner">
+                    <p>Aloofelicidad</p>
+                    <span
+                      >Sole Project<br />2021.09~2021.10 <br />
+                      [HTML, CSS, JS]</span
+                    >
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="inner">
+                    <a href="https://gyulsbox.github.io/portfolio_website/" target="_blank">HTML, CSS, JS를 사용하여만든 개인 포트폴리오 웹사이트입니다.</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <div class="container">
+                <div class="front" style="background-image: url(imgs/Projects/ex3.jpg)">
+                  <div class="inner">
+                    <p>ToyJS</p>
+                    <span
+                      >Toy Project<br />2021.11~2022.01 <br />
+                      [HTML, CSS, JS]</span
+                    >
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="inner">
+                    <a href="https://gyulsbox.github.io/ToyJS/" target="_blank">JavaScript 숙달을 위한 4개의 미니 프로젝트</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <div class="container">
+                <div class="front" style="background-image: url(imgs/Projects/ex4.jpg)">
+                  <div class="inner">
+                    <p>MARS</p>
+                    <span
+                      >Sole Project<br />2022.01~2022.01 <br />
+                      [React, TypeScript]</span
+                    >
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="inner">
+                    <a href="https://gyulsbox.github.io/MARS/" target="_blank">React & TypeScript를 활용한 실시간 Coin Tracker 제작</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <div class="container">
+                <div class="front" style="background-image: url(imgs/Projects/ex5.jpg)">
+                  <div class="inner">
+                    <p>GYULFLIX</p>
+                    <span
+                      >Sole Project<br />2022.02~2022.03 <br />
+                      [React, TypeScript]</span
+                    >
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="inner">
+                    <a href="https://gyulsbox.github.io/GYULFLIX/" target="_blank">React & TypeScript를 활용한 나만의 Netflix 제작</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lastlys -->
+    <div class="custom-shape-divider-top-lastlys">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          class="shape-fill"
+        ></path>
+      </svg>
+    </div>
+    <section id="lastlys" class="section">
+      <div class="section__container">
+        <h1>Lastly</h1>
+        <h3>Stories about me</h3>
+        <div class="lastlys">
+          <div class="lastly">
+            <img src="imgs/lastly/1.png" alt="people" class="lastly__avatar" />
+            <div class="lastly__speech-bubble">
+              <p>
+                많고 많은 길 중 왜 이 길을 택하였는가? 란 질문을 많이 받았습니다. 항공정비과를 졸업하고 일본의 한 항공사에 입사하였으나 코로나 상황으로 인해 일본에서 일할 상황과 여건이 힘들었습니다.
+                이에 국내에서 준비하고 일을 하자는 마음으로 전역 후 준비하려고 보니 국내 항공사의 정상화까지 최소 3년이란 시간이 걸린다는 전문가들의 의견에 저는 단순히 기다리고 있을 수만은 없었습니다.
+              </p>
+            </div>
+          </div>
+          <div class="lastly">
+            <div class="lastly__speech-bubble">
+              <p>
+                이에 어떻게 해야 할까 하는 생각이 많이 들었습니다. 드론 쪽으로 전향할까? 아니면 다시 대학에 들어갈까? 등 처음엔 길을 잃었다는 생각에 당황스럽고 어지러웠스나 그저 주저앉아 있을 수는
+                없음을 알기에 많은 것을 알아보았습니다. 그 속에서 저는 괴롭기보다는 새로움을 찾는 과정이 너무도 신선하고 즐거웠습니다. 그러다 발견한 길이 프로그래머였습니다.
+              </p>
+            </div>
+            <img src="imgs/lastly/2.png" alt="people" class="lastly__avatar" />
+          </div>
+          <div class="lastly">
+            <img src="imgs/lastly/3.png" alt="people" class="lastly__avatar" />
+            <div class="lastly__speech-bubble">
+              <p>
+                평소 새로움을 찾아다니며 알아보는 것을 즐기고 문제 해결에 대한 탐구심이 강한 편이라 프로그래머라는 직업이 나에게 맞을 수도 있겠다는 생각이 들었습니다. 처음엔 독학으로 이것저것 해보니
+                재미도 있고 어려운 부분은 직접 찾아가며 에러를 해결해나가며 만족스러운 결과를 만드는 과정이 정말 재미있었습니다. 쉬운 일은 아니지만, 무에서 유를 만들어나가는 이 일에 끝없이 배워나가야
+                한다는 이 직업이 너무나도 매력적이었습니다. 이에 저는 망설임 없이 이 길을 걸어가겠다고 결심을 하게 되었습니다. 현재는 CS 공부 진행 중에 있습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <div class="custom-shape-divider-bottom-contact">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+          opacity=".25"
+          class="shape-fill"
+        ></path>
+        <path
+          d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+          opacity=".5"
+          class="shape-fill"
+        ></path>
+        <path
+          d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+          class="shape-fill"
+        ></path>
+      </svg>
+    </div>
+    <section id="contact" class="section">
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">anwjr7878@gmail.com</h2>
+      <div class="contact__links">
+        <a href="https://github.com/gyulsbox" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <p class="contact__rights">2021 Aloofelicidad - All rights reserved</p>
+    </section>
+
+    <!-- Arrow up -->
+    <button class="arrow-up">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
+</html>
