@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <h1 id="head1" class="note">
+        Lorem.
+    </h1>
+    <h1 id="head2" class="note">
+        Vitae!
+    </h1>
+    <h1 id="head3" class="note error">
+        Doloribus.
+    </h1>
+    <h1 id="head4" class="error">
+        Explicabo.
+    </h1>
+    <h1 id="head5" class="error">
+        Accusantium?
+    </h1>
+    <h1 id="head6" class="error">
+        Quidem!
+    </h1>
+    <h1 id="head7">
+        Suscipit!
+    </h1>
+    <h1 id="head8">
+        Commodi.
+    </h1>
+    <h1 id="head9">
+        Quasi.
+    </h1>
+    <h1 id="head10">
+        Ad?
+    </h1>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script>
+    // document.querySelectorAll()
+    let a = document.querySelectorAll(".note");
+    console.log(a[0]);
+    console.log(a[1]);
+    console.log(a[2]);
+    console.log(a.length);
+
+
+     // error 클래스인 요소를 document에서 얻어서 각각 출력 
+    let b = document.querySelectorAll(".error");
+    for (let i = 0; i < b.length; i++) {
+        console.log(b[i]);
+    }
+    </script>
+</body>
+</html>
